@@ -1,0 +1,8 @@
+[package]
+name = "ems_reals"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.23.0"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "51e71e9de591904e6dae13b41a1b1c326a711f3b"}

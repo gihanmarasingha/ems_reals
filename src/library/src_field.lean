@@ -58,7 +58,7 @@ instance : has_pow R ℕ := ⟨pow1⟩
 
 def pow2 (x : R) (m : ℤ) := ite (m ≥ 0) (pow1 x (int.to_nat m)) (pow1 x (int.to_nat (-m)))
 
-instance : has_pow R ℤ := ⟨pow2⟩
+-- instance : has_pow R ℤ := ⟨pow2⟩
 
 end myreal
 

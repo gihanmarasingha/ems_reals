@@ -502,10 +502,9 @@ instance : linear_ordered_comm_ring R :=
   add_le_add_left   := add_le_add_left,
   mul_pos           := mul_pos,
   le_total          := le_total,
-  zero_le_one       := zero_le_one,
   mul_comm          := myfield.mul_comm,
-  decidable_le      := decidable_le',
-  exists_pair_ne    := exists_pair_ne,
+  zero_lt_one       := zero_lt_one',
+  zero_ne_one       := zero_ne_one,
 }
 
 end instance_linear_ordered_comm_ring
